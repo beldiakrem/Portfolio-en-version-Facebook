@@ -1,0 +1,112 @@
+.header {
+  background-color: #242526 !important;
+}
+#logo {
+  width: 3%;
+  margin: 0px 7px;
+}
+.form-control {
+  color: white !important;
+    background-color: #3A3B3C !important;
+    border-radius :  1.25rem solid #3A3B3C !important;
+    border : 1px solid #3A3B3C !important;
+    border-radius:  1.25rem !important;
+}
+
+#navlink{
+  color: aliceblue;
+}
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.mr-sm-2{
+    height: 40px  !important;
+    padding: 0 40px 0 6px !important;
+    font-size: 17px !important;
+    margin: 3px 0 !important;
+    font-family: inherit !important;
+}
+
+.mr-sm-2::-webkit-input-placeholder { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: #919396 !important;
+}
+
+.mr-sm-2::-moz-placeholder  { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: #919396 !important;
+}
+
+.mr-sm-2:-ms-input-placeholder  { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: #919396 !important;
+}
+#bg-vertical-dropdown-1{
+  width: 40px;
+    height: 40px;
+    padding: 7px 0px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.50857;
+    margin: 0px 5px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #3A3B3C !important;
+  border-color: #3A3B3C !important;
+}
+
+.btn-primary:hover {
+  background-color: #696969 !important;
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+.btn-primary:focus {
+  box-shadow: none !important;
+}
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow:  none !important;
+}
+.dropdown-menu {
+  left: -121px !important;
+  background-color: #242526 !important;
+  
+}
+#dropdowncolor {
+  color: #919396;
+}
+
+.MuiIconButton-root {
+  padding: 8px !important;
+}
