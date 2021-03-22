@@ -49,12 +49,12 @@ const useStyles = makeStyles((theme) => ({
             <Navbar >
              <img id="logo" src={logo} />
                <Form inline>
-                   <FormControl type="text" placeholder="&#61442;  Rechercher sur Facebook" className="mr-sm-2" />
+                   <FormControl type="text" placeholder="&#61442;  Rechercher..." className="mr-sm-2" />
                </Form>
                      <Menuheader />
                      <div className={classes.root}>
                        
-                          <Avatar  src={Me} /> <h6 id="avatarname"> Akrém </h6>
+                          <Avatar type="button"  src={Me} /> <h6 id="avatarname"> Akrém </h6>
                         
                            <IconButton className={classes.gris}>
                            <Tooltip title="Add" aria-label="add">

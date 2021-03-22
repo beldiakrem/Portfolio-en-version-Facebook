@@ -58,6 +58,11 @@ padding-left: 5px;
 padding-top: 2px;
 color: #919396 !important;
 }
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
 #bg-vertical-dropdown-1{
   width: 40px;
     height: 40px;
@@ -115,10 +120,26 @@ color: #919396 !important;
   margin-top: 10px;
 }
 
-/* Menuheader */
+/* ///////////////// */
+   /* Menuheader */
+/* ///////////////// */
+
+
 .MuiPaper-root {
   background-color: #242526 !important;
 }
 .iconemenu.MuiSvgIcon-root {
   font-size: 1.7rem !important;
+}
+.MuiTab-textColorPrimary.Mui-selected {
+  color: #1278F3 !important;
+}
+.PrivateTabIndicator-colorPrimary-5 {
+  background-color: #1278F3 !important;
+}
+.MuiTab-textColorPrimary {
+  color: white !important;
+}
+.MuiPaper-elevation1 {
+  box-shadow: none !important;
 }
