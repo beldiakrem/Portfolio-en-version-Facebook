@@ -7,7 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Dropdown from 'react-bootstrap/Dropdown'
-import logo from '../Assests/logo.png'
+import logo from '../../Assests/logo.png'
 import { makeStyles } from '@material-ui/core/styles';
 import AddIcon from '@material-ui/icons/Add';
 import PermPhoneMsgIcon from '@material-ui/icons/PermPhoneMsg';
@@ -16,7 +16,7 @@ import IconButton from '@material-ui/core/IconButton';
 import { pink } from '@material-ui/core/colors';
 import Tooltip from '@material-ui/core/Tooltip';
 import Avatar from '@material-ui/core/Avatar'; 
-import Me from '../Assests/me.jpg'
+import Me from '../../Assests/me.jpg'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -47,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
         <div className="header" >
             
             <Navbar >
-             <img id="logo" src={logo} />
+             {/* <img id="logo" src={logo} /> */}
                <Form inline>
                    <FormControl type="text" placeholder="&#61442;  Rechercher..." className="mr-sm-2" />
                </Form>

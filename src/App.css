@@ -132,14 +132,94 @@ color: #919396 !important;
   font-size: 1.7rem !important;
 }
 .MuiTab-textColorPrimary.Mui-selected {
-  color: #1278F3 !important;
+  color: #B7161C !important;
 }
 .PrivateTabIndicator-colorPrimary-5 {
-  background-color: #1278F3 !important;
+  background-color: #B7161C !important;
 }
 .MuiTab-textColorPrimary {
   color: white !important;
 }
 .MuiPaper-elevation1 {
   box-shadow: none !important;
+}
+
+/* //////// */
+  /* Home */
+/* //////// */
+
+.intro {
+  height: 561px;
+  position: relative;
+  color: #F1F2EE;
+  border-top: 1px solid #242526;
+}
+
+.intro .intro-content {
+  text-align: center;
+  position: absolute;
+  margin: -35px 238px;
+}
+
+.intro .overlay-intro {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .9;
+}
+
+.intro .intro-title {
+  color: #F1F2EE;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.intro .intro-subtitle {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: -20px;
+}
+
+/* .intro .text-slider-items {
+  font-weight: bolder;
+} */
+
+.intro-single {
+  height: 350px;
+}
+
+.intro-single .intro-content {
+  margin-top: 30px;
+}
+
+.intro-single .intro-title {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.intro-single .breadcrumb {
+  background-color: transparent;
+  color: #0078ff;
+}
+
+.intro-single .breadcrumb .breadcrumb-item:before {
+  color: #cde1f8;
+}
+
+.intro-single .breadcrumb .breadcrumb-item.active {
+  color: #cde1f8;
+}
+
+.intro-single .breadcrumb a {
+  color: #fff;
+}
+
+.intro img {
+  width:300px;
+   clip-path:ellipse(50% 50%);
+   margin: 40px 290px;
 }
