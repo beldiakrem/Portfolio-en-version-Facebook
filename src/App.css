@@ -110,3 +110,15 @@ color: #919396 !important;
 .MuiIconButton-root {
   padding: 8px !important;
 }
+#avatarname {
+  color: white;
+  margin-top: 10px;
+}
+
+/* Menuheader */
+.MuiPaper-root {
+  background-color: #242526 !important;
+}
+.iconemenu.MuiSvgIcon-root {
+  font-size: 1.7rem !important;
+}

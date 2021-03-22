@@ -1,4 +1,5 @@
 import React from 'react';
+import Menuheader from './menuheader'
 import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
@@ -50,15 +51,10 @@ const useStyles = makeStyles((theme) => ({
                <Form inline>
                    <FormControl type="text" placeholder="&#61442;  Rechercher sur Facebook" className="mr-sm-2" />
                </Form>
-                 <Navbar.Brand id="navlink" href="#home">Navbar</Navbar.Brand>
-                     <Nav className="mr-auto">
-                        <Nav.Link  id="navlink" href="#home">Home</Nav.Link>
-                        <Nav.Link  id="navlink" href="#features">Features</Nav.Link>
-                        <Nav.Link  id="navlink" href="#pricing">Pricing</Nav.Link>
-                     </Nav>
+                     <Menuheader />
                      <div className={classes.root}>
                        
-                          <Avatar  src={Me} />
+                          <Avatar  src={Me} /> <h6 id="avatarname"> Akrém </h6>
                         
                            <IconButton className={classes.gris}>
                            <Tooltip title="Add" aria-label="add">
