@@ -7,7 +7,7 @@ import Me from '../../Assests/me.jpg'
 class Intro extends React.Component {
   render() {
     return (
-      <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+Bachground+")", height: "100%" }}>
+      <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+Bachground+")"}}>
       <div id="home" className="intro route bg-image background">
         {/* <div id="stars" />
         <div id="stars2" />
@@ -21,9 +21,6 @@ class Intro extends React.Component {
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
                   <Typed
-                  strings={[
-                    "BELDI Akrem",
-                  ]}
                     strings={[
                       "Développeur Full StackJS",
                       "Développeur Front-End",

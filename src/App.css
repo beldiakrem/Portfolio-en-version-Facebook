@@ -176,17 +176,16 @@ color: #919396 !important;
   color: #F1F2EE;
   font-weight: 600;
   font-size: 3rem;
+  font-family: monospace;
+
 }
 
 .intro .intro-subtitle {
   font-size: 2rem;
   font-weight: 300;
   margin-top: -20px;
+  font-family: monospace;
 }
-
-/* .intro .text-slider-items {
-  font-weight: bolder;
-} */
 
 .intro-single {
   height: 350px;
@@ -222,4 +221,54 @@ color: #919396 !important;
   width:300px;
    clip-path:ellipse(50% 50%);
    margin: 40px 290px;
+}
+
+/* //////// */
+  /* Apropos */
+/* //////// */
+
+.apropos {
+  height: 561px;
+  position: relative;
+  color: #F1F2EE;
+  border-top: 1px solid #242526;
+  background-color: #18191A;
+  /* height: auto; */
+}
+.apropo{
+  display: flex;
+  justify-content: space-around;
+}
+.apropo img {
+  margin-top: 26px;
+}
+.papropo {
+  max-width: 450px;
+  margin: auto;
+  margin-top: 80px;
+}
+.papropo p {
+  line-height: 2.2rem;
+  font-family: monospace;
+  font-size: 1.3rem;
+}
+.papropo h1 {
+  margin-left: 100px;
+  margin-bottom: 20px;
+  font-family: cursive;
+  background: -webkit-linear-gradient(#B7161C, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.papropo a {
+  color: white;
+  font-size: 50px;
+  margin-left: 45px;
+}
+.papropo a:hover {
+  background: -webkit-linear-gradient(#B7161C, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
 }
