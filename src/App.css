@@ -1,5 +1,13 @@
+/* * {
+  background-color: #242526
+} */
+
 .header {
   background-color: #242526 !important;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 #logo {
   width: 3%;
@@ -223,37 +231,42 @@ color: #919396 !important;
    margin: 40px 290px;
 }
 
-/* //////// */
-  /* Apropos */
+/* ///////// */
+/* Apropos */
 /* //////// */
 
-.apropos {
-  height: 561px;
+     /* ///////// */
+      /* Apropo */
+     /* //////// */
+
+
+.apropos  {
   position: relative;
-  color: #F1F2EE;
   border-top: 1px solid #242526;
   background-color: #18191A;
-  /* height: auto; */
+  height: 1650px;
 }
 .apropo{
   display: flex;
   justify-content: space-around;
+  color: #F1F2EE;
 }
 .apropo img {
-  margin-top: 26px;
+  margin-top: 90px;
 }
 .papropo {
   max-width: 450px;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 150px;
 }
 .papropo p {
   line-height: 2.2rem;
   font-family: monospace;
   font-size: 1.3rem;
+  margin-left: 20px;
 }
 .papropo h1 {
-  margin-left: 100px;
+  margin-left: 120px;
   margin-bottom: 20px;
   font-family: cursive;
   background: -webkit-linear-gradient(#B7161C, #eee);
@@ -271,4 +284,101 @@ color: #919396 !important;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
+}
+
+     /* ///////// */
+/* Formation / Diplome */
+     /* //////// */
+
+.cardd p h2 {
+  color: #18191A;
+}
+.cardd .card {
+  margin: 80px 20px;
+  display: flex;
+  border: none !important;
+}
+#imgcard {
+  height: 280px;
+  box-shadow: 5px 1px 10px 0px #888888 ;
+  transition: all .4s ease;
+  margin-top: 10px;
+}
+#imgcard:hover{
+  height: 310px;
+}
+.card h2 {
+  margin-bottom: 20px;
+  font-family: cursive;
+  background: -webkit-linear-gradient(#B7161C, #A9A9A9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.cardd .card p {
+  font-size: large;
+  font-family: monospace;
+}
+.cardf .card{
+  margin: 0px 5px 0px;
+  display: flex;
+  border: none !important;
+}
+.cardf .card p{
+  font-size: inherit;
+  font-family: monospace;
+}
+
+/* /////////
+competence
+///////// */
+
+.competence{
+  position: relative;
+  border-top: 1px solid #242526;
+  background-color: #18191A;
+  height: 1100px;
+}
+.competence h1 {
+  font-family: cursive;
+  background: -webkit-linear-gradient(#B7161C, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 100px 0px 0px 40px;
+}
+.iconecompetence4 img {
+  padding: 20px 45px;
+}
+.iconecompetence3 img {
+  padding: 20px 79px;
+}
+.iconecompetence2 img {
+  padding: 20px 140px;
+}
+
+/* /////////
+pourcentage
+///////// */
+
+.MuiCircularProgress-root {
+  width: 120px !important;
+    height: 0px !important; 
+}
+.MuiCircularProgress-colorPrimary {
+  color: #E74C3C !important;
+}
+.MuiTypography-colorTextSecondary {
+  color: white !important;
+}
+.MuiTypography-caption {
+  font-size: 2.75rem !important;
+  margin-left: 123px !important;
+}
+.iconecompetence4 .MuiBox-root {
+  margin: 0px -22px;
+}
+.iconecompetence3 .MuiBox-root {
+  margin: 0px -58px;
+}
+.iconecompetence2 .MuiBox-root {
+  margin: 0px -120px;
 }

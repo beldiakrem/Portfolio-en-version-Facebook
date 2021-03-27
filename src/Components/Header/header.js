@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
     return (
         <div className="header" >
             
-            <Navbar >
+            <Navbar id="headerfixed" >
              {/* <img id="logo" src={logo} /> */}
                <Form inline>
                    <FormControl type="text" placeholder="&#61442;  Rechercher..." className="mr-sm-2" />

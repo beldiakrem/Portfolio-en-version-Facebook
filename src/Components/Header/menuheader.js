@@ -38,6 +38,7 @@ TabPanel.propTypes = {
 };
 
 
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -63,10 +64,10 @@ export default function Menuheader() {
         textColor="primary"
         aria-label="icon tabs example"
       >
-          <Tab icon={<HomeIcon className="iconemenu" />} />
-          <Tab icon={<ImportantDevicesIcon className="iconemenu" />} />
-          <Tab icon={<LiveTvIcon className="iconemenu" />} />
-          <Tab icon={<PhotoLibraryIcon className="iconemenu" />} />
+          <Tab href="/" icon={<HomeIcon className="iconemenu" />} />
+          <Tab href="/apropos" icon={<ImportantDevicesIcon className="iconemenu" />} />
+          <Tab href="/competences" icon={<LiveTvIcon className="iconemenu" />} />
+          <Tab href="/" icon={<PhotoLibraryIcon className="iconemenu" />} />
         </Tabs>
         </Paper>
       /* <TabPanel value={value} index={0}>
