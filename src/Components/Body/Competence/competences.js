@@ -21,41 +21,41 @@ import Pourcentage from './pourcentage'
     return (
         <div className="competence">
              <div className="competencet">
-               <h1>  Compétences Techniques </h1>
+               <h1>  Mes Compétences </h1>
                <div className="iconecompetence4">
                    <img src={Html} />
                    <img src={Css} />
                    <img src={Bootstrap} />
                    <img src={Materialui} />
                    <img src={Fleche} />
-                   <Pourcentage  />
+                   <Pourcentage pr="85"  time="90" />
                </div>
                <div className="iconecompetence3">
                    <img src={Js} />
                    <img src={ReactJS} />
                    <img src={ReduxJS} />
                    <img src={Fleche} />
-                   <Pourcentage   />
+                   <Pourcentage pr="80" time="120" />
                </div>
                <div className="iconecompetence3">
                    <img src={Wordpress} />
                    <img src={Woocommerce} />
                    <img src={Psd} />
                    <img src={Fleche} />
-                   <Pourcentage  />
+                   <Pourcentage  pr="80" time="140"  />
                </div>
                <div className="iconecompetence3">
                    <img src={Git} />
                    <img src={Vs} />
                    <img src={Cpanel} />
                    <img src={Fleche} />
-                   <Pourcentage  />
+                   <Pourcentage pr="70" time="200" />
                </div>
                <div className="iconecompetence2">
                    <img src={Nodejs} />
                    <img src={Mongodb} />
                    <img src={Fleche} />
-                   <Pourcentage  />
+                   <Pourcentage pr="60" time="300" />
                </div>
              </div>
         </div>

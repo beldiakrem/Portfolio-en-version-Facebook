@@ -35,13 +35,13 @@ Pourcentage.propTypes = {
   value: PropTypes.number.isRequired,
 };
 
-export default function CircularStatic() {
-  const [progress, setProgress] = React.useState(10);
+export default function CircularStatic(props) {
+  const [ progress, setProgress] = React.useState(10);
 
   React.useEffect(() => {
     const timer = setInterval(() => {
-      setProgress((prevProgress) => (prevProgress >= 80 ? 80 : prevProgress + 10));
-    }, 90);
+      setProgress((prevProgress) => (prevProgress >= (props.pr) ? (props.pr) : prevProgress + 10));
+    }, (props.time));
     return () => {
       clearInterval(timer);
     };
