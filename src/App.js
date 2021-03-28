@@ -10,6 +10,7 @@ import Header from './Components/Header/header'
 import Home from './Components/Body/home'
 import Apropos from './Components/Body/apropos'
 import Competences from './Components/Body/Competence/competences'
+import Experiences from './Components/Body/experiences'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route exact path="/" component= {Home} />
       <Route path="/apropos" component= {Apropos} />
       <Route path="/competences" component= {Competences} />
+      <Route path="/experiences" component= {Experiences} />
       </Switch>
     </div>
     </BrowserRouter>

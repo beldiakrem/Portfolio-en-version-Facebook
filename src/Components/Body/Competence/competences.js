@@ -21,7 +21,7 @@ import Pourcentage from './pourcentage'
     return (
         <div className="competence">
              <div className="competencet">
-               <h1>  Mes Compétences </h1>
+               <h1>  Compétences </h1>
                <div className="iconecompetence4">
                    <img src={Html} />
                    <img src={Css} />

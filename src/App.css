@@ -385,3 +385,45 @@ pourcentage
 .iconecompetence2 .MuiBox-root {
   margin: 0px -120px;
 }
+
+
+/* ///////
+experience
+/////// */
+
+.experience {
+  position: relative;
+  border-top: 1px solid #242526;
+  background-color: #18191A;
+  height: 1100px;
+}
+#hexp {
+  font-family: cursive;
+  background: -webkit-linear-gradient(#B7161C, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 100px 0px 0px 40px;
+}
+.MuiPaper-root {
+  background-color: #fff !important;
+}
+.MuiTimelineDot-defaultGrey {
+  color: #B7161C !important;
+  background-color: #fff !important;
+}
+.MuiTimelineDot-defaultPrimary {
+  color: #B7161C !important;
+  background-color: #fff !important;
+}
+.MuiTimelineDot-outlinedPrimary {
+  color: #B7161C !important;
+  border-color: transparent !important;
+  background-color: #fff !important;
+}
+.MuiTimelineDot-defaultSecondary {
+  color: #B7161C !important;
+  background-color: #fff !important;
+}
+.makeStyles-secondaryTail-65 {
+  background-color: #bdbdbd !important;
+}

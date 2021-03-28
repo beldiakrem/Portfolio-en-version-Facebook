@@ -67,7 +67,7 @@ export default function Menuheader() {
           <Tab href="/" icon={<HomeIcon className="iconemenu" />} />
           <Tab href="/apropos" icon={<ImportantDevicesIcon className="iconemenu" />} />
           <Tab href="/competences" icon={<LiveTvIcon className="iconemenu" />} />
-          <Tab href="/" icon={<PhotoLibraryIcon className="iconemenu" />} />
+          <Tab href="/experiences" icon={<PhotoLibraryIcon className="iconemenu" />} />
         </Tabs>
         </Paper>
       /* <TabPanel value={value} index={0}>
