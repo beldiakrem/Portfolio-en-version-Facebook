@@ -126,6 +126,15 @@ color: #919396 !important;
 #avatarname {
   color: white;
   margin-top: 10px;
+  padding: 0 5px;
+}
+.linkavatar {
+  display: flex;
+}
+
+.linkavatar:hover {
+  color: #0056b3;
+  text-decoration: none;
 }
 
 /* ///////////////// */
@@ -404,7 +413,7 @@ experience
   -webkit-text-fill-color: transparent;
   margin: 100px 0px 0px 40px;
 }
-.MuiPaper-root {
+.MuiTimelineContent-root .MuiPaper-root {
   background-color: #fff !important;
 }
 .MuiTimelineDot-defaultGrey {
@@ -424,6 +433,22 @@ experience
   color: #B7161C !important;
   background-color: #fff !important;
 }
-.makeStyles-secondaryTail-65 {
+.makeStyles-secondaryTail-9 {
   background-color: #bdbdbd !important;
 }
+.MuiPaper-root #lieu {
+  color: #B7161C !important;
+}
+.MuiTimelineItem-alignAlternate:nth-child(even) .MuiTimelineItem-content {
+  text-align: left !important;
+}
+.MuiTypography-body1 {
+  line-height: 2 !important;
+}
+
+/* ///////
+ Projets
+/////// */
+/* .projets{
+  margin-top: 100px;
+} */

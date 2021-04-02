@@ -48,9 +48,12 @@ export default function Experience() {
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" component="h1">
-              Eat
+              Développeur Front-End ( Intégrateur Web )
             </Typography>
-            <Typography>Because you need strength</Typography>
+            <Typography id="lieu"> Polydev Digital Tunisia </Typography>
+            <Typography> - Découpage des éléments graphiques a partir d’une maquette en Psd. <br/> - Création et maintenance des sites interne avec HTML 5, CSS 3 (responsive) et JavaScript.
+<br/> - Installation, configuration et maintenance de thème et d’extension Wordpress.
+ </Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
@@ -69,9 +72,12 @@ export default function Experience() {
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" component="h1">
-              Code
+              Project Freelance 
             </Typography>
-            <Typography>Because it&apos;s awesome!</Typography>
+            <Typography id="lieu"> DropPro </Typography>
+            <Typography> Application web simplifie tout le travail de gestion et automatiser votre entreprise de livraison directe et de découvrir à quel point la livraison directe peut étre exellente. Par exemple ('Dropified, Oberlo'), mais à cause de COVID 19 ce projet s'arréte. </Typography>
+            <Typography id="lieu"> Zone4code </Typography>
+            <Typography> Création une plateforme éducative par (ReactJS, NodeJS)  </Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
@@ -90,9 +96,10 @@ export default function Experience() {
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" component="h1">
-              Sleep
+              Chef De Production
             </Typography>
-            <Typography>Because you need rest</Typography>
+            <Typography id="lieu"> Saida Group (Sotuchoc) </Typography>
+            <Typography> Organisation et planification de la production par un systéme automatique du mélange (tous les types du chocolat), je suis le responsable sur 4 groupes (magasiniers, machinistes, ingrédients et récyclages) </Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
@@ -110,9 +117,10 @@ export default function Experience() {
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" component="h1">
-              Repeat
+              Projet Fon d'étude
             </Typography>
-            <Typography>Because this is the life you love!</Typography>
+            <Typography id="lieu"> Aiventu </Typography>
+            <Typography> Application android de comptage d'inventaire (Conception et Réalisation), environnement technique: "Zxing-Scanner, Android Studio" </Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>

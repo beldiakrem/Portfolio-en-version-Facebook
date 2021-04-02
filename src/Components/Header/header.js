@@ -52,10 +52,12 @@ const useStyles = makeStyles((theme) => ({
                    <FormControl type="text" placeholder="&#61442;  Rechercher..." className="mr-sm-2" />
                </Form>
                      <Menuheader />
+                     <a className="linkavatar" href="/apropos" >
+                          <Avatar type="button"  src={Me} /> 
+                          <h6 id="avatarname"> Akrém </h6>
+                        </a>
                      <div className={classes.root}>
                        
-                          <Avatar type="button"  src={Me} /> <h6 id="avatarname"> Akrém </h6>
-                        
                            <IconButton className={classes.gris}>
                            <Tooltip title="Add" aria-label="add">
                         

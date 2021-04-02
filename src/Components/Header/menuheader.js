@@ -65,9 +65,9 @@ export default function Menuheader() {
         aria-label="icon tabs example"
       >
           <Tab href="/" icon={<HomeIcon className="iconemenu" />} />
-          <Tab href="/apropos" icon={<ImportantDevicesIcon className="iconemenu" />} />
-          <Tab href="/competences" icon={<LiveTvIcon className="iconemenu" />} />
-          <Tab href="/experiences" icon={<PhotoLibraryIcon className="iconemenu" />} />
+          <Tab href="/competences" icon={<ImportantDevicesIcon className="iconemenu" />} />
+          <Tab href="/experiences" icon={<LiveTvIcon className="iconemenu" />} />
+          <Tab href="/projets" icon={<PhotoLibraryIcon className="iconemenu" />} />
         </Tabs>
         </Paper>
       /* <TabPanel value={value} index={0}>

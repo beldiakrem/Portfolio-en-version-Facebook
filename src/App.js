@@ -11,6 +11,7 @@ import Home from './Components/Body/home'
 import Apropos from './Components/Body/apropos'
 import Competences from './Components/Body/Competence/competences'
 import Experiences from './Components/Body/experiences'
+import Projets from './Components/Body/projets'
 
 
 function App() {
@@ -20,9 +21,10 @@ function App() {
       <Header />
       <Switch>
       <Route exact path="/" component= {Home} />
-      <Route path="/apropos" component= {Apropos} />
+      <Route exact path="/apropos" component= {Apropos} />
       <Route path="/competences" component= {Competences} />
       <Route path="/experiences" component= {Experiences} />
+      <Route path="/projets" component= {Projets} />
       </Switch>
     </div>
     </BrowserRouter>
